@@ -4,8 +4,26 @@ import enums.PaliwoEnum;
 import enums.TypPojazduEnum;
 import interfaces.Samochod;
 
+
+
 public class Main {
     public static void main(String[] args) {
+    Dom dom=new Dom();
+    dom.kolorDomu(kolorEnum.Niebieski);
+Budynek budynek=dom;
+     dom.powierzchnia(2);
+        System.out.println("Powierzchnia domu wynosi"+dom.powierzchnia (2) );
+        Dom dom1=new Dom();
+        Budynek budynek1=dom1;
+        dom1.liczbaPokoi(3,5);
+        budynek1.liczbaOkien(6);
+        budynek1.adresBudynku("");
+    dom1.toString();
+    budynek1.toString();
+
+
+
+
 
         SamochodOsobowy pojazd1 = new SamochodOsobowy();
         pojazd1.setMarka("Fiat");
