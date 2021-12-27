@@ -2,6 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+        Kwadrat kwadrat=new Kwadrat("Kwadrat");
+        Prostokąt prostokąt=new Prostokąt("Prostokąt");
+        Kwadrat kwadrat1=new Kwadrat("Kwadrat");
+        Prostokąt prostokąt1=new Prostokąt("Prostokąt");
+
+        kwadrat1.nazwaFigury("Kwadrat");
+        kwadrat.obwod();
+        prostokąt.pole();
+        prostokąt1.pole();
+
         /* zad.1
         a) stworzyć klasę abstrakcyjną Figura
         b) stworzyć metody abstrakcyjne pole() i obwod()
