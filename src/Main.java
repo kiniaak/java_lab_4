@@ -42,6 +42,7 @@ public class Main {
             
         }
         
+       Dyrektor dyrektor=new Dyrektor();
 
         /* zad.1
         a) napisać interfejs CzlowiekI

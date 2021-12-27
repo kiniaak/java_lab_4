@@ -1,4 +1,4 @@
-public class Kierownik implements  Pracownik1 {
+public class Kierownik extends Dyrektor {
     public Kierownik() {
     }
 
