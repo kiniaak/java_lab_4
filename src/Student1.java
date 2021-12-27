@@ -1,4 +1,4 @@
-public interface Student1 extends Człowiek {
+public interface Student1 {
 
     public void PodajNrIndeksu(int indeks);
     public void PodajKierunek(String kierunek);

@@ -8,13 +8,19 @@ public class Main {
      Student student=new Student();
      Pracownik pracownik=new Pracownik();
      Pracownik1 pracownik1=pracownik;
+     pracownik1.PodajStażPracy(3);
      Student1 student1=student;
+     student1.PodajRokStudiow(2);
      Student student2=new Student();
      Student student3=new Student();
+     student2.toString();
+     student3.toString();
 
      Pracownik pracownik2=new Pracownik();
      Pracownik pracownik3=new Pracownik();
-
+       pracownik2.toString();
+       pracownik3.toString();
+       pracownik.czasPracy(4);
 
         /* zad.1
         a) napisać interfejs CzlowiekI
