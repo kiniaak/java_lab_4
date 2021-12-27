@@ -33,6 +33,14 @@ public class Main {
             }
         }
 
+            try {
+                int wynik= 8 / 0;
+                System.out.print("a) Czy ten kod się wykona ?");
+            } catch (ArithmeticException e) {
+//
+                System.out.println("ArithmeticException " + e.getMessage());
+            }
+
         }
 
         /* zad.1
