@@ -21,6 +21,11 @@ public class Main {
        pracownik2.toString();
        pracownik3.toString();
        pracownik.czasPracy(4);
+       Kierownik kierownik1=new Kierownik();
+       kierownik1.kwotaWypłaty(3000);
+       Kierownik kierownik2=new Kierownik();
+       kierownik2.czasPracy(8);
+
 
         /* zad.1
         a) napisać interfejs CzlowiekI
