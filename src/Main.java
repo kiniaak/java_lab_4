@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
@@ -25,7 +27,21 @@ public class Main {
        kierownik1.kwotaWypłaty(3000);
        Kierownik kierownik2=new Kierownik();
        kierownik2.czasPracy(8);
-
+       kierownik1.toString();
+       kierownik2.toString();
+      List<Pracownik1> listaPracowników=new ArrayList<>();
+      listaPracowników.add(kierownik1);
+        listaPracowników.add(kierownik2);
+        listaPracowników.add(pracownik);
+        listaPracowników.add(pracownik1);
+        listaPracowników.add(pracownik2);
+        listaPracowników.add(pracownik3);
+        for (Pracownik1 item:listaPracowników
+             ) {
+            System.out.println(item.toString());
+            
+        }
+        
 
         /* zad.1
         a) napisać interfejs CzlowiekI
