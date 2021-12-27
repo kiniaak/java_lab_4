@@ -41,6 +41,14 @@ public class Main {
                 System.out.println("ArithmeticException " + e.getMessage());
             }
 
+            try {
+                String name = null;
+                name.toString();
+            } catch (NullPointerException e) {
+                System.out.println("Błąd nie można wywołać metody toString() na null");
+                throw e;
+            }
+
         }
 
         /* zad.1
