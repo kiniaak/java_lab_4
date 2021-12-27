@@ -1,8 +1,18 @@
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-
+        int[]tab=new int[6];
+        tab[0]=4;
+        tab[1]=78;
+        tab[2]=89;
+        tab[3]=90;
+        tab[4]=120;
+        tab[5]=7;
+       Scanner scan=new Scanner(System.in);
+        System.out.println("Podaj numer indeksu");
+        int indeks= scan.nextInt();
         /* zad.1
         a) stworzyć tablicę 6-cio elementową, uzupełnić przykładowymi wartościami (dowolny typ tablicy),
         b) wprowadzić z klawiatury numer indexu tablicy który chcemy wyświetlić, użyć metody next() --> scan.next();
