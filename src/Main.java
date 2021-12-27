@@ -1,6 +1,20 @@
 
 public class Main {
+
+
+
+
     public static void main(String[] args) {
+     Student student=new Student();
+     Pracownik pracownik=new Pracownik();
+     Pracownik1 pracownik1=pracownik;
+     Student1 student1=student;
+     Student student2=new Student();
+     Student student3=new Student();
+
+     Pracownik pracownik2=new Pracownik();
+     Pracownik pracownik3=new Pracownik();
+
 
         /* zad.1
         a) napisać interfejs CzlowiekI
